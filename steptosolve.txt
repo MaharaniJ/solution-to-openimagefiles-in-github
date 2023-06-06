@@ -1,3 +1,5 @@
+
+Tech Mash
 steps to solve the problem:
 ipconfig  /flushdns
 ipconfig /registerdns
@@ -8,3 +10,15 @@ NETSH int ipv4 reset reset.log
 NETSH int ipv6 reset reset.log
 
 https://www.youtube.com/watch?v=1MMnUBsUczY
+ way:2
+ controlpannel:
+ check the catacory
+ network sharing 
+ check the connected network and go to the properties
+ select the internet protocol version4(TCP/IPv4) then go to the properties
+ select the radio button use following DNS server address
+ 8 8 8 8 
+ 8 8 4 4
+ validate settings upon exit
+ then ok
+close allthe tabs
