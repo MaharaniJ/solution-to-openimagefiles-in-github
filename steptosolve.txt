@@ -8,6 +8,19 @@ ipconfig /renew
 NETSH winsock reset catalog
 NETSH int ipv4 reset reset.log
 NETSH int ipv6 reset reset.log
+-------------------------------------------------
+Start Command Prompt as administrator. To do that press Windows Key + X to open Power User Menu and select Command Prompt (Admin) from the menu.
+dns-issues-admin
+When Command Prompt opens enter the following lines and press Enter after each:
+ipconfig /flushdns
+ipconfig /registerdns
+ipconfig /release
+ipconfig /renew
+NETSH winsock reset catalog
+NETSH int ipv4 reset reset.log
+NETSH int ipv6 reset reset.log
+Exit
+After you close the Command Prompt check if the issue is resolved.
 
 https://www.youtube.com/watch?v=1MMnUBsUczY
  way:2
